@@ -1,0 +1,175 @@
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color:#d16a47;
+}
+h3 {
+  color:darksalmon;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: lighter;
+  font-size: 8pt;
+}
+
+.decor{
+  text-decoration: none;
+  transition:0.3s ease;
+  opacity:1;
+}
+.decor img:hover{
+  margin-bottom: 4px;
+  opacity:1;
+}
+
+
+
+h1{
+  animation:fadein 5s linear;
+}
+
+@keyframes fadein {
+  from {opacity: 0%; }
+  to   {opacity: 100%; }
+
+}
+
+.peruone {
+  position:relative;
+  z-index:200;
+  top:250px;
+  left:400px;
+
+}
+.perutwo {
+  position: relative;
+  z-index: 21;
+  top: 150px;
+  left: -50px;
+}
+.peruthree {
+  position: relative;
+  z-index: 20;
+  top: 50px;
+  left: 550px;
+}
+.perufour {
+  position: relative;
+  z-index: 19;
+  top: 100px;
+  left: 350px;
+}
+.perufive {
+  position: relative;
+  z-index: 18;
+  top: 150px;
+  left: -850px;
+}
+.perusix {
+  position: relative;
+  z-index: 17;
+  top: 150px;
+  left: -250px;
+}
+.peruseven {
+  position: relative;
+  z-index: 16;
+  top: 30px;
+  left: -200px;
+}
+.perueight {
+  position: relative;
+  z-index: 15;
+  top: -200px;
+  left: -50px;
+}
+.perunine {
+  position: relative;
+  z-index: 14;
+  top: 10px;
+  left: 600px;
+}
+.peruten {
+  position: relative;
+  z-index: 13;
+  top: 65px;
+  left: 43px;
+}
+.perueleven {
+  position: relative;
+  z-index: 12;
+  top: -400px;
+  left: -8px;
+}
+.perutwelve {
+  position: relative;
+  z-index: 11;
+  top: -700px;
+  left: -400px;
+}
+.peruthirteen {
+  position: relative;
+  z-index: 10;
+  top: -650px;
+  left: 350px;
+}
+.perufourteen {
+  position: relative;
+  z-index: 9;
+  top: -1050px;
+  left: 300px;
+}
+.perufifteen {
+  position: relative;
+  z-index: 8;
+  top: -950px;
+  left: 400px;
+}
+.perusixteen {
+  position: relative;
+  z-index: 7;
+  top: -1600px;
+  left: 770px;
+}
+.peruseventeen {
+  position: relative;
+  z-index: 6;
+  top: -1290px;
+  left: -260px;
+}
+.perueighteen {
+  position: relative;
+  z-index: 5;
+  top: -1650px;
+  left: 400px;
+}
+.perunineteen {
+  position: relative;
+  z-index: 4;
+  top: -1600px;
+  left: 400px;
+}
+.perutwenty {
+  position: relative;
+  z-index: 3;
+  top: -2100px;
+  left: -100px;
+}
+.perutwentyone {
+  position: relative;
+  z-index: 2;
+  top: -2500px;
+  left: 450px;
+}
+.perutwentytwo {
+  position: relative;
+  z-index: 1;
+  top: -2650px;
+  left: 500px;
+}
+.dragme {
+  position:center,absolute;
+  z-index: 20;
+  cursor: move;
+}
